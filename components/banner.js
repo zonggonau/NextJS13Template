@@ -92,7 +92,8 @@ export default function Banner() {
             <p className="mx-auto mt-4 max-w-4xl sm:text-xl sm:leading-relaxed">
               <span className="block text-gray-500 dark:text-gray-100">
                 <span className="block">
-                  N-13 is a starter template for NextJS 13 development.
+                  N-13 is a starter template for NextJS 13 Beta Version
+                  development.
                 </span>
               </span>
             </p>

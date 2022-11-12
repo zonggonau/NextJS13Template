@@ -93,7 +93,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div
+        {/* <div
           style={{
             position: "fixed",
             right: "10px",
@@ -112,7 +112,7 @@ export default function Footer() {
               </div>
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

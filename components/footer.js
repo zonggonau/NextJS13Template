@@ -7,24 +7,10 @@ export default function Footer() {
   return (
     <footer
       aria-label="Site Footer"
-      className="border-t dark:bg-zinc-900 dark:border-zinc-800 border-zinc-200"
+      className=" dark:bg-zinc-900 dark:border-zinc-800 border-zinc-200"
     >
-      <div className="mx-auto max-w-screen-xl px-4 pt-32 pb-12 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="text-4xl font-extrabold sm:text-2xl">
-            <span className="text-red-600">PAPUAHOSTER</span> <br></br>IT
-            CONSULTAN & WEB AGENCY
-          </p>
-
-          <Link
-            className="mt-8 inline-block rounded-full border text-white bg-red-900 border-white/25 px-12 py-3 text-sm font-medium hover:bg-white hover:text-red-500"
-            href="/layanan"
-          >
-            Lihat Layanan Kami
-          </Link>
-        </div>
-
-        <div className="mt-32 border-t border-white/25 pt-12 sm:flex sm:items-center sm:justify-between">
+      <div className="mx-auto max-w-screen-xl px-4  pb-12 sm:px-6 lg:px-8">
+        <div className=" border-white/25 pt-12 sm:flex sm:items-center sm:justify-between">
           <nav
             aria-label="Footer Nav"
             className="flex justify-center gap-4 text-sm font-medium sm:justify-start"

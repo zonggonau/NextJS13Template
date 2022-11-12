@@ -51,14 +51,14 @@ export default function Navbar() {
           <div className="items-center">
             <div>
               <Link href="/" className="flex text-3xl font-bold ">
-                PAPUAHOSTER
+                N-13
               </Link>
             </div>
-            <div>
+            {/* <div>
               <p className="text-sm font-bold text-red-600">
-                IT CONSULTAN & WEB AGENCY
+                Config and Template
               </p>
-            </div>
+            </div> */}
           </div>
 
           <div className="flex flex-1 items-center justify-end">
@@ -97,7 +97,7 @@ export default function Navbar() {
               </Link>
             </nav>
 
-            <div className="ml-8 flex items-center">
+            <div className="ml-8  flex items-center">
               <div className="flex items-center divide-x divide-gray-100 cursor-pointer border-gray-100">
                 <button
                   id="theme-toggle-dekstop"

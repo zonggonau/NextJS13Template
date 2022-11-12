@@ -7,8 +7,6 @@ export default function Home({ children }) {
   return (
     <>
       <Banner />
-      <TabsLayanan />
-      {/* <Section /> */}
     </>
   );
 }

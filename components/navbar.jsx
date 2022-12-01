@@ -33,7 +33,7 @@ export default function Navbar() {
         <div className="mx-auto flex h-20 max-w-screen-2xl items-center justify-between sm:px-6 lg:px-8">
           <div className="hidden lg:block">
             <Link href="/" className="text-3xl font-bold ">
-              N-13
+              NEXTBLOG
             </Link>
           </div>
           <div className="flex w-full  items-center justify-between lg:hidden pr-5">
@@ -57,7 +57,7 @@ export default function Navbar() {
             </div>
             <div className="lg:hidden">
               <Link href="/" className="text-3xl font-bold ">
-                N-13
+                NEXTBLOG
               </Link>
             </div>
             <div className="lg:hidden ml-8  flex items-center">
@@ -77,22 +77,22 @@ export default function Navbar() {
               className="hidden lg:flex lg:gap-8 lg:text-xs lg:font-bold lg:uppercase lg:tracking-wide "
             >
               <Link
-                href="/"
+                href="/docs"
                 className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
               >
-                Home
+                Docs
               </Link>
-              <div className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
+              {/* <div className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
                 <Dropdown />
-              </div>
+              </div> */}
               <Link
-                href="/profile"
+                href="/components"
                 className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
               >
-                Our Profile
+                Components
               </Link>
 
-              <Link
+              {/* <Link
                 href="/klien"
                 className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
               >
@@ -104,7 +104,7 @@ export default function Navbar() {
                 className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
               >
                 Contact Us
-              </Link>
+              </Link> */}
               <div className="ml-8  flex items-center">
                 <div className="flex items-center divide-x divide-gray-100 cursor-pointer border-gray-100">
                   <button

@@ -92,6 +92,13 @@ export default function Navbar() {
                 Components
               </Link>
 
+              <Link
+                href="/templates"
+                className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              >
+                Templates
+              </Link>
+
               {/* <Link
                 href="/klien"
                 className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"

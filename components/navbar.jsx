@@ -61,13 +61,13 @@ export default function Navbar() {
               </Link>
             </div>
             <div className="lg:hidden ml-8  flex items-center">
-              <button
+              <span
                 id="theme-toggle-dekstop"
                 type="button"
-                class="cursor-pointer text-gray-500 dark:text-gray-400 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+                className="cursor-pointer text-gray-500 dark:text-gray-400 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
               >
                 {ThemeMode()}
-              </button>
+              </span>
             </div>
           </div>
 
@@ -99,28 +99,15 @@ export default function Navbar() {
                 Templates
               </Link>
 
-              {/* <Link
-                href="/klien"
-                className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-              >
-                Our Client
-              </Link>
-
-              <Link
-                href="/kontak"
-                className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-              >
-                Contact Us
-              </Link> */}
               <div className="ml-8  flex items-center">
                 <div className="flex items-center divide-x divide-gray-100 cursor-pointer border-gray-100">
-                  <button
+                  <span
                     id="theme-toggle-dekstop"
                     type="button"
-                    class="cursor-pointer text-gray-500 dark:text-gray-400 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+                    className="cursor-pointer text-gray-500 dark:text-gray-400 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
                   >
                     {ThemeMode()}
-                  </button>
+                  </span>
                 </div>
               </div>
             </nav>

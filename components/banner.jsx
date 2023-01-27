@@ -6,14 +6,14 @@ export default function Banner() {
           <div>
             <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-8xl font-extrabold text-transparent sm:text-8xl">
               <span className="sm:block animate-pulse drop-shadow-lg">
-                <span className="block">N-13</span>
+                <span className="block">NEXT BLOG</span>
               </span>
             </h1>
 
             <p className="mx-auto mt-4 max-w-4xl sm:text-xl sm:leading-relaxed">
               <span className="block text-gray-500 dark:text-gray-100">
                 <span className="block">
-                  N-13 is a starter template for NextJS 13 Beta Version
+                  Next Blog is a starter website templates for NextJS Version
                   development.
                 </span>
               </span>
